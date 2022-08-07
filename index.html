@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Generate Serial-Number</title>
+        <link rel="stylesheet" href="CSS/master.css">
+    </head>
+    <body>
+
+        <div class="up">
+            <div class="title">Chose The Type of Serial Number</div>
+            <div class="controle">
+                <div class="C1 checkbox">
+                    <input type="checkbox" id="A_Z" name="A_Z" checked>
+                    <label for="A_Z">A to Z</label>
+                </div>
+                <div class="C2 checkbox">
+                    <input type="checkbox" id="a_z" name="a_z" checked>
+                    <label for="a_z">a to z</label>
+                </div>
+                <div class="C3 checkbox">
+                    <input type="checkbox" id="numbers" name="numbers" checked>
+                    <label for="numbers">1 to 9</label>
+                </div>
+                <div class="C4 checkbox">
+                    <input type="checkbox" id="spechialCracter" name="spechialCracter" >
+                    <label for="spechialCracter">@ , # , % , ...</label>
+                </div>
+                <div class="C5">
+                    <label for="lengthee">Serial Length</label>
+                    <input type="text" id="lengthee" name="lengthee" maxlength="2" placeholder="Max = 53">
+                </div>
+            </div>
+            <div class="start">
+                <div class="button-start">start</div>
+            </div>
+        </div>
+        <div class="dowen">
+            <div class="text" ></div>
+            <div class="geterate">Generate Serial</div>
+        </div>
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>
